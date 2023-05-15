@@ -1,36 +1,28 @@
 # TranslationUtils
 
-#### Description
-利用谷歌翻译API，集成的翻译工具，需要的自取，自己可随意修改。
+#### introduce
 
-#### Software Architecture
-Software architecture description
+Use Google TranslateAPI，Integrated translation tools，self pick up，You can modify it at will。
 
-#### Installation
+#### operating environment
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  normaljavaversion，jdkexist1.8above
+2.  If you are afraid of trouble, just download the latest and use it。
 
-#### Instructions
+#### Instructions for use
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  After using the download it needs to be recompiled asclasscan only be used
+2.  because of googleAPIChina service is now discontinued，So wall walls to nodes other than mainland regions，Neither Hong Kong nor Taiwan
 
-#### Contribution
+#### Participate in contribution
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+1.  Fork This warehouse，This project will no longer be updated and maintained
 
+#### trick
 
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  use Readme\_XXX.md to support different languages，For example Readme\_en.md, Readme\_zh.md
+2.  Gitee official blog [blog.gitee.com](https://blog.gitee.com)
+3.  you can [https://gitee.com/explore](https://gitee.com/explore) this address to understand Gitee Excellent open source projects on
+4.  [GVP](https://gitee.com/gvp) full name is Gitee Most Valuable Open Source Project，It is an excellent open source project comprehensively evaluated
+5.  Gitee Official user manual [https://gitee.com/help](https://gitee.com/help)
+6.  Gitee The cover character is a file used to show Gitee Member's column [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
