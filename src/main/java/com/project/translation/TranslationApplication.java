@@ -7,6 +7,7 @@ import javafx.stage.Stage;
 import javax.swing.filechooser.FileSystemView;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -25,7 +26,16 @@ public class TranslationApplication extends Application {
 
         File inputFile = new File(com.getPath() + "\\example.txt");
         File outputFile = new File(com.getPath() + "\\10.txt");
-
+        try {
+            if (!inputFile.exists()) {
+                inputFile.createNewFile();
+            }
+            if (!outputFile.exists()) {
+                outputFile.createNewFile();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         try {
             Scanner scanner = new Scanner(inputFile);
             PrintWriter writer = new PrintWriter(outputFile);
@@ -54,10 +64,11 @@ public class TranslationApplication extends Application {
             writer.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+        } finally {
+            System.out.println("=====================程序结束=====================");
+            System.exit(0);
         }
     }
-
-
 
 
 }
